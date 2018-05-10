@@ -1,0 +1,13 @@
+service_di_demo.service1:
+  path: 'examples/service-di-demo/service1'
+  defaults:
+    _controller: '\Drupal\service_di_demo\Controller\ServiceDemoController::service1_example'
+  requirements:
+    _access: 'TRUE'
+
+service_di_demo.service2:
+  path: 'examples/service-di-demo/service2'
+  defaults:
+    _controller: '\Drupal\service_di_demo\Controller\ServiceDemoController::service2_example'
+  requirements:
+    _access: 'TRUE'

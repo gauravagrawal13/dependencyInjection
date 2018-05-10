@@ -1,0 +1,8 @@
+services:
+  service_di_demo.service1:
+    class: Drupal\service_di_demo\Service1
+  service_di_demo.service2:
+    class: Drupal\service_di_demo\Service2
+    arguments: ['@service_di_demo.service1']
+  service_di_demo.service3:
+    class: Drupal\service_di_demo\Service3

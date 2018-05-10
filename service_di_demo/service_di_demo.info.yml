@@ -1,0 +1,5 @@
+name: Service DI demo
+type: module
+description: 'Custom module for service and DI demo.'
+package: Core
+core: 8.x
